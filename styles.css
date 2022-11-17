@@ -1,14 +1,15 @@
 * {
   font-family: "Varela Round", sans-serif;
-  user-select: none;
 }
 
 :root {
-  color: white;
+  background-color: #f0f1f3;
   font-size: 1.2rem;
+  color: white;
 }
 
 body {
+  user-select: none;
   padding: 50px 0;
 }
 
@@ -24,6 +25,7 @@ body {
 
 .heading-round {
   text-align: center;
+  margin: 10px 0;
   padding: 3px;
   border: 3px solid;
   border-radius: 50px;
@@ -90,7 +92,11 @@ input[type="checkbox"] {
 }
 
 .button {
+  text-align: center;
   font-weight: bold;
+  margin: 10px auto;
+  max-width: 50%;
+
   border: 2px solid rgb(120, 120, 120);
   border-radius: 50px;
   box-shadow: 0 7px rgb(120, 120, 120);
