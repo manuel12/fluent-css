@@ -4,7 +4,7 @@
 
 :root {
   background-color: #f0f1f3;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
 }
 
@@ -14,7 +14,6 @@ body {
 }
 
 .heading-depth {
-  background-color: #ffbc00;
   text-align: center;
 
   padding: 3px;
@@ -92,10 +91,12 @@ input[type="checkbox"] {
 }
 
 .button {
+  color: white;
   text-align: center;
   font-weight: bold;
   margin: 10px auto;
   max-width: 50%;
+
 
   border: 2px solid rgb(120, 120, 120);
   border-radius: 50px;
@@ -115,4 +116,40 @@ input[type="checkbox"] {
   width: 25%;
   color: white;
   font-size: inherit;
+}
+
+.w-25 {
+  width: 25% !important;
+  max-width: 25% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+  max-width: 50% !important;
+}
+
+.w-75 {
+  width: 75% !important;
+  max-width: 75% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.fs-1pt25 {
+  font-size: 1.25rem;
+}
+
+.fs-1pt5 {
+  font-size: 1.5rem;
+}
+
+.fs-1pt75 {
+  font-size: 1.75rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
 }
