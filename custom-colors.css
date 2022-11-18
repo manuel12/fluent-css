@@ -11,7 +11,7 @@
 }
 
 .bg-green {
-  background-color: #58CC02;
+  background-color: #58cc02;
 }
 
 .bg-blue {
@@ -23,9 +23,20 @@
 }
 
 .bg-grey {
-  background-color: lightgray
+  background-color: lightgray;
 }
 
+.border-dark-red {
+  border-color: #ca0000;
+}
+
+.border-dark-orange {
+  border-color: #c57300;
+}
+
+.border-dark-yellow {
+  border-color: #c69100;
+}
 
 .border-dark-green {
   border-color: #49a403;
@@ -33,4 +44,12 @@
 
 .border-dark-blue {
   border-color: #1586ba;
+}
+
+.border-dark-purple {
+  border-color: #4854c7;
+}
+
+.text-light {
+  color: white;
 }
