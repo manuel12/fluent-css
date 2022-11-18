@@ -22,4 +22,15 @@
   background-color: #5c6cfc;
 }
 
+.bg-grey {
+  background-color: lightgray
+}
 
+
+.border-dark-green {
+  border-color: #49a403;
+}
+
+.border-dark-blue {
+  border-color: #1586ba;
+}
