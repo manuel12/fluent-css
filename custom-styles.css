@@ -118,6 +118,11 @@ input[type="checkbox"] {
   font-size: inherit;
 }
 
+.icon-button {
+  padding: 5px 15px;
+  font-size: 1.25rem
+}
+
 .w-25 {
   width: 25% !important;
   max-width: 25% !important;
