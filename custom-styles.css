@@ -66,8 +66,14 @@ body {
 }
 
 .textarea {
-  width: 100;
+  width: 94.5%;
   height: 100px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 10px 2.5%;
+  margin: 10px 0;
+  font-size: 0.8rem;
+
   font-family: inherit;
   resize: none;
 }
@@ -97,7 +103,6 @@ input[type="checkbox"] {
   margin: 10px auto;
   max-width: 50%;
 
-
   border: 2px solid rgb(120, 120, 120);
   border-radius: 50px;
   box-shadow: 0 7px rgb(120, 120, 120);
@@ -120,7 +125,81 @@ input[type="checkbox"] {
 
 .icon-button {
   padding: 5px 15px;
-  font-size: 1.25rem
+  font-size: 1.25rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: #ff9600;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+td {
+  border: solid 1px white;
+  padding: 10px;
+}
+
+thead tr th {
+  border: solid 1px white;
+}
+
+thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+tbody {
+  background-color: rgb(170, 170, 170);
+}
+
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+ol li {
+  counter-increment: step-counter;
+  list-style-type: none;
+  position: relative;
+  margin-top: 10px;
+}
+
+ol li::before {
+  content: counter(step-counter);
+  background-color: orange;
+  display: block;
+
+  position: absolute;
+  top: -1px;
+  left: -30px;
+
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-align: center;
+
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.underline {
+  text-decoration: 2px underline;
 }
 
 .w-25 {
