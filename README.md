@@ -3,7 +3,7 @@
 ## Introduction
 
 ### Brief overview of what the library does:
-This library was inspired by the styles of the Duolingo and Fontawesome websites. I wanted to create a library that would inmeditaly improve the look of an HTML website when imported, but also provided the user with classes to alter the stylings of the different elements in use.
+This library was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of an HTML website when imported, but also provided the user with classes to alter the stylings of the different elements in use.
 
 ### How the library was built:
 The library was built using plain CSS.
@@ -24,7 +24,7 @@ _This is of course assuming the styles are in the root of your project, if they 
 After that add the link to the google (Valera Round) font.
 
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
-And finally add the script for the fontawesome kit.
+And finally add the script for the Font Awesome kit.
 
     <script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"</script>
 
@@ -46,9 +46,17 @@ And finally add the script for the fontawesome kit.
 
 ### Headers
 
+![Headers example](demo/headers.png)
+
 ### Button width classes
+
+![Button width classes](demo/button-width-classes.png)
 
 ### Social buttons
 
+![Social buttons](demo/social-buttons.png)
+
 ### Sound buttons
+
+![Sound buttons](demo/sound-buttons.png)
 
