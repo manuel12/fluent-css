@@ -1,5 +1,20 @@
 # Custom Styles & Colors Library
 
+## Some quick examples
+
+### Headings
+
+![Headers example](demo/headers.png)
+
+### Social buttons
+
+![Social buttons](demo/social-buttons.png)
+
+### Sound buttons
+
+![Sound buttons](demo/sound-buttons.png)
+
+
 ## Introduction
 
 ### Brief overview of what the library does:
@@ -44,9 +59,21 @@ And finally add the script for the Font Awesome kit.
 
 ## Examples
 
-### Headers
+### Headings with depth
 
-![Headers example](demo/headers.png)
+![Headers example](demo/headings.png)
+
+### Headings with round corners
+
+![Headers example](demo/headings-with-round-corners.png)
+
+### Headings with dark borders
+
+![Headers example](demo/headings-with-darker-borders.png)
+
+### Form elements
+
+![Headers example](demo/forms.png)
 
 ### Button width classes
 
@@ -59,4 +86,8 @@ And finally add the script for the Font Awesome kit.
 ### Sound buttons
 
 ![Sound buttons](demo/sound-buttons.png)
+
+### Tables, ordered and unordered lists
+
+![Headers example](demo/tables-and-lists.png)
 
