@@ -21,7 +21,7 @@
 This library was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of an HTML website when imported, but also provided the user with classes to alter the stylings of the different elements in use.
 
 ### How the library was built:
-The library was built using plain CSS.
+The library was built using plain CSS and Font Awesome icons.
 
 ## Usage
 
