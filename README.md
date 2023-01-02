@@ -24,7 +24,7 @@ This library was inspired by the styles of the [Duolingo](https://www.duolingo.c
 
 The library was built using plain CSS and Font Awesome icons.
 
-## Usage
+## Download
 
 ### How to download the library:
 
@@ -47,6 +47,62 @@ And finally add the script for the Font Awesome kit.
 
     <script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"></script>
 
+## Usage
+
+After importing the library and reloading you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, ordered and unordered lists will also be automatically updated.
+
+In order to use the other styles available, such as having a heading with depth, or with darker borders, styling buttons as social or music buttons, and so on, you will need to add the class of the style you want to add to the element you want to change.
+
+So for example, if you have a heading element that you want to update to a heading with depth and also give it a different background color...
+
+    <html>
+      <body>
+        <h1>My heading</h1>
+      </body>
+    </html>
+
+...that originally looks like this...
+
+![Heading example](demo/heading.png)
+
+...you need to add the required classes, in this case "heading-depth" and "bg-green", to the h1 element...
+
+    <html>
+      <body>
+        <h1 class="heading-depth bg-green">My heading</h1>
+      </body>
+    </html>
+
+... so that it ends up looking like this.
+
+![Heading example](demo/heading-with-depth.png)
+
+One of the most important classes provided by custom-styles.css is the .custom-container class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class .custom-container to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
+
+    <div>
+      <h1>Restaurant Reservation System</h1>
+      ...
+    </div>
+
+...and currently looks like this...
+
+![Heading example](demo/div.png)
+
+...add the .custom-container and .bg-blue classes to such div in order to change it to a custom container with a blue background...
+
+    <div class="custom-container bg-blue">
+      <h1>Restaurant Reservation System</h1>
+      ...
+    </div>
+
+...and it will end up looking like this.
+
+![Heading example](demo/styled-div.png)
+
+**Note:** custom containers occupy 75% of their parent's width and have white font by default.
+
+In order to see how to apply any of the different styling examples simply load the index.html that comes with the library, and check the source code to see how each element was implemented.
+
 ## What's included in the library
 
 ### Custom Colors
@@ -57,8 +113,13 @@ And finally add the script for the Font Awesome kit.
 
 ### Custom Styles
 
-- Inmediate elements styles
-- Submit and Icon buttons
+- Elements styles
+- Custom container
+- Heading with depth
+- Heading with round corners
+- Submit button
+- Social buttons
+- Sound buttons
 - Text styles
 - Font-size styles
 - Width styles
