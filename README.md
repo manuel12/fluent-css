@@ -28,7 +28,7 @@ The library was built using plain CSS and Font Awesome icons.
 
 ### How to download the library:
 
-Simply clone the repository locally and extract the custom-styles.css and custom-colors.css files and add them to the root of your project
+Simply clone the repository locally and extract the _custom-styles.css_ and _custom-colors.css_ files and add them to the root of your project
 
 ### How to import the library:
 
