@@ -76,7 +76,7 @@ The _color-styles.css_ includes colors you can use to style elements:
 
 ## Usage
 
-### Ading classes to elements
+### Adding classes to elements
 
 After importing the library and reloading you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, ordered and unordered lists will also be automatically updated.
 
@@ -106,7 +106,9 @@ So for example, if you have a heading element that you want to update to a headi
 
 ![Heading example](demo/heading-with-depth.png)
 
-One of the most important classes provided by _custom-styles.css_ is the _.custom-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class .custom-container to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
+### Custom containers
+
+One of the most important classes provided by _custom-styles.css_ is the _.custom-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class _.custom-container_ to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
 
     <div>
       <h1>Restaurant Reservation System</h1>
