@@ -47,7 +47,36 @@ And finally add the script for the Font Awesome kit.
 
     <script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"></script>
 
+## What's included in the library
+
+The library includes 2 CSS files: _custom-styles.css_ and _color-styles.css_.
+
+The _custom-styles.css_ includes element stylings that will apply inmediatly as soon as library is imported and further classes that you can use to style elements:
+
+### Custom Styles
+
+- Elements styles
+- Custom container
+- Heading with depth
+- Heading with round corners
+- Submit button
+- Social buttons
+- Sound buttons
+- Text styles
+- Font-size styles
+- Width styles
+
+The _color-styles.css_ includes colors you can use to style elements:
+
+### Custom Colors
+
+- Background colors
+- Border colors
+- Text colors
+
 ## Usage
+
+### Ading classes to elements
 
 After importing the library and reloading you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, ordered and unordered lists will also be automatically updated.
 
@@ -65,7 +94,7 @@ So for example, if you have a heading element that you want to update to a headi
 
 ![Heading example](demo/heading.png)
 
-...you need to add the required classes, in this case "heading-depth" and "bg-green", to the h1 element...
+...you need to add the required classes, in this case _.heading-depth_ and _.bg-green_, to the h1 element...
 
     <html>
       <body>
@@ -73,11 +102,11 @@ So for example, if you have a heading element that you want to update to a headi
       </body>
     </html>
 
-... so that it ends up looking like this.
+...so that it ends up looking like this:
 
 ![Heading example](demo/heading-with-depth.png)
 
-One of the most important classes provided by custom-styles.css is the .custom-container class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class .custom-container to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
+One of the most important classes provided by _custom-styles.css_ is the _.custom-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class .custom-container to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
 
     <div>
       <h1>Restaurant Reservation System</h1>
@@ -88,14 +117,14 @@ One of the most important classes provided by custom-styles.css is the .custom-c
 
 ![Heading example](demo/div.png)
 
-...add the .custom-container and .bg-blue classes to such div in order to change it to a custom container with a blue background...
+...add the _.custom-container_ and _.bg-blue_ classes to such div in order to change it to a custom container with a blue background...
 
     <div class="custom-container bg-blue">
       <h1>Restaurant Reservation System</h1>
       ...
     </div>
 
-...and it will end up looking like this.
+...and it will end up looking like this:
 
 ![Heading example](demo/styled-div.png)
 
@@ -103,26 +132,6 @@ One of the most important classes provided by custom-styles.css is the .custom-c
 
 In order to see how to apply any of the different styling examples simply load the index.html that comes with the library, and check the source code to see how each element was implemented.
 
-## What's included in the library
-
-### Custom Colors
-
-- Background colors
-- Border colors
-- Text colors
-
-### Custom Styles
-
-- Elements styles
-- Custom container
-- Heading with depth
-- Heading with round corners
-- Submit button
-- Social buttons
-- Sound buttons
-- Text styles
-- Font-size styles
-- Width styles
 
 ## Examples
 
