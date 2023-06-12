@@ -15,6 +15,24 @@ body {
   padding: 50px 12.5%;
 }
 
+button {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px auto;
+  max-width: 50%;
+
+  border: 2px solid rgb(120, 120, 120);
+  border-radius: 50px;
+  box-shadow: 0 7px rgb(120, 120, 120);
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 1px rgb(120, 120, 120);
+  transform: translateY(6px);
+}
+
 label {
   display: block;
   margin: 5px 0;
@@ -39,6 +57,16 @@ input[type="checkbox"] {
   width: 20px;
   display: inline;
   cursor: pointer;
+}
+
+nav {
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 select {
@@ -74,24 +102,6 @@ textarea::-webkit-scrollbar-track {
 textarea::-webkit-scrollbar-thumb {
   background: #4e4e4e;
   border-radius: 25px;
-}
-
-button {
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  margin: 10px auto;
-  max-width: 50%;
-
-  border: 2px solid rgb(120, 120, 120);
-  border-radius: 50px;
-  box-shadow: 0 7px rgb(120, 120, 120);
-  cursor: pointer;
-}
-
-button:active {
-  box-shadow: 0 1px rgb(120, 120, 120);
-  transform: translateY(6px);
 }
 
 table {
