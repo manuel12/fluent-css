@@ -78,14 +78,18 @@ nav > ul {
 nav > ul > li {
   border-radius: 10px;
 
-  min-width: 100px;
+  width: 100px !important;
   padding: 3px;
 
   text-align: center;
 }
 
+nav > ul > li:hover {
+  background-color: rgb(212, 243, 252);
+}
+
 nav > ul > li > a {
-  min-width: 100px !important;
+  width: 100px !important;
   padding: 3px;
 
   color: gray;
