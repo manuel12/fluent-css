@@ -64,20 +64,18 @@ nav {
 }
 
 nav > ul {
-  background-color: #1586ba;
+  background-color: white;
 
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 
-  padding: 5px;
+  padding: 10px;
   border: 3px solid darkgray;
   border-radius: 10px;
 }
 
 nav > ul > li {
-  background-color: orange;
-  border: 3px solid darkgray;
   border-radius: 10px;
 
   min-width: 100px;
@@ -90,7 +88,7 @@ nav > ul > li > a {
   min-width: 100px !important;
   padding: 3px;
 
-  color: white;
+  color: gray;
   text-decoration: none;
 }
 
