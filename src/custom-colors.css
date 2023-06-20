@@ -1,3 +1,39 @@
+.text-red {
+  color: #ff0000;
+}
+
+.text-orange {
+  color: #ff9600;
+}
+
+.text-yellow {
+  color: #ffbc00;
+}
+
+.text-green {
+  color: #58cc02;
+}
+
+.text-blue {
+  color: #1cb0f6;
+}
+
+.text-purple {
+  color: #5c6cfc;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-white {
+  color: white;
+}
+
 .bg-red {
   background-color: #ff0000;
 }
@@ -24,6 +60,10 @@
 
 .bg-grey {
   background-color: lightgray;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .border-red {

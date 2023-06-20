@@ -1,0 +1,51 @@
+.border-1 {
+  border: 0.25rem solid;
+}
+
+.border-2 {
+  border: 0.5rem solid;
+}
+
+.border-3 {
+  border: 0.75rem solid;
+}
+
+.border-4 {
+  border: 1rem solid;
+}
+
+.border-5 {
+  border: 1.25rem solid;
+}
+
+.border-6 {
+  border: 1.5rem solid;
+}
+
+.border-7 {
+  border: 1.75rem solid;
+}
+
+.border-8 {
+  border: 2rem solid;
+}
+
+.border-radius-1 {
+  border-radius: 1px;
+}
+
+.border-radius-2 {
+  border-radius: 5px;
+}
+
+.border-radius-3 {
+  border-radius: 10px;
+}
+
+.border-radius-4 {
+  border-radius: 15px;
+}
+
+.border-radius-5 {
+  border-radius: 20px;
+}
