@@ -1,12 +1,12 @@
 {
+  "type": "module",
   "name": "custom-css-library",
   "version": "1.0.0",
-  "description": "![Headers example](demo/headers.png)",
+  "description": "A custom library based on the Duolingo and Fontawesome websites",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "dev": "webpack serve"
+    "build": "gulp"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,10 @@
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.7.0"
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^8.0.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
   }
 }
