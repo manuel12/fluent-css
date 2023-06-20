@@ -1,41 +1,56 @@
-const gulp = require("gulp");
-const concat = require("gulp-concat");
-const minifyCSS = require("gulp-clean-css");
-const connect = require("gulp-connect");
+import gulp from "gulp";
+import connect from "gulp-connect";
 
-const SOURCE_FOLDER = "examples/e-commerce";
+import concat from "gulp-concat";
+import htmlMinifier from "gulp-htmlmin";
+import cssMinifier from "gulp-clean-css";
+import imageMinifier from "gulp-imagemin";
 
-const bundleHTML = () =>
+const minifyHTML = () =>
   gulp
-    .src(`${SOURCE_FOLDER}/*.html`)
+    .src("examples/e-commerce/*.html")
+    .pipe(htmlMinifier({ collapseWhitespace: true }))
     .pipe(gulp.dest("build/"))
     .pipe(connect.reload());
 
-const watchHTML = () => gulp.watch(`${SOURCE_FOLDER}/*.html"`, bundleHTML);
+const watchHTML = () =>
+  gulp.watch(
+    "examples/e-commerce/*.html",
+    { ignoreInitial: false },
+    minifyHTML
+  );
 
 const bundleCSS = () =>
   gulp
-    .src("src/*.css") // Source files to bundle
-    .pipe(concat("custom-library.min.css")) // Concatenate files into one
-    .pipe(minifyCSS()) // Minified the bundled CSS
-    .pipe(gulp.dest("build/")) // Output directory for the bundled
+    .src("src/*.css")
+    .pipe(concat("custom-library.min.css"))
+    .pipe(cssMinifier())
+    .pipe(gulp.dest("build/"))
     .pipe(connect.reload());
 
-const watchCSS = () => gulp.watch("src/*.css", bundleCSS);
+const watchCSS = () =>
+  gulp.watch("src/*.css", { ignoreInitial: false }, bundleCSS);
 
-// Module CSS: ${SOURCE_FOLDER}/*.css
+// Module CSS: examples/e-commerce/*.css
 const bundleModuleCSS = () =>
   gulp
-    .src("${SOURCE_FOLDER}/*.css")
-    .pipe(minifyCSS())
+    .src("examples/e-commerce/*.css")
+    .pipe(cssMinifier())
     .pipe(gulp.dest("build/"))
     .pipe(connect.reload());
 
 const watchModuleCSS = () =>
-  gulp.watch(`${SOURCE_FOLDER}/*.css`, bundleModuleCSS);
+  gulp.watch(
+    "examples/e-commerce/*.css",
+    { ignoreInitial: false },
+    bundleModuleCSS
+  );
 
 const bundleImages = () =>
-  gulp.src(`${SOURCE_FOLDER}/images/*.png`).pipe(gulp.dest("build/images/"));
+  gulp
+    .src("examples/e-commerce/images/*.png")
+    .pipe(imageMinifier())
+    .pipe(gulp.dest("build/images/"));
 
 const connectServer = () =>
   connect.server({
@@ -43,7 +58,7 @@ const connectServer = () =>
     livereload: true,
   });
 
-exports.default = gulp.parallel(
+export default gulp.parallel(
   watchHTML,
   watchCSS,
   watchModuleCSS,
