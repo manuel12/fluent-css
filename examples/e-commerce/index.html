@@ -2,96 +2,77 @@
 <html>
   <head>
     <title>E-Commerce Shop</title>
-    <!-- Add your CSS stylesheets and other meta tags here -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="custom-library.min.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="home-styles.css" />
   </head>
   <body class="custom-container bg-blue">
     <header>
-      <!-- Header content goes here -->
-      <h1 class="heading-depth bg-orange">E-ComSSmerce Shop</h1>
+      <h1 class="heading-depth bg-orange">E-Commerce Shop</h1>
     </header>
     <nav>
-      <!-- Navigation bar goes here -->
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Products</a></li>
+        <li><a href="products.html">Products</a></li>
         <li><a href="cart.html">Cart</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="content">
-      <!-- Body content goes here -->
-      <h2>Welcome to our E-Commerce Shop!</h2>
-      <p>
+      <h2 class="w-50 mx-auto ">Welcome to our E-Commerce Shop!</h2>
+      <p class="w-50 mx-auto  margin-bottom-8 ">
         Welcome to our Duolingo Icons Shop, your go-to destination for unique
         and captivating icons inspired by the world of languages. Discover a
         delightful collection of vibrant icons representing various languages
         and cultural symbols. Add a touch of creativity to your life and embrace
         the beauty of language through our exclusive Duolingo icons.
       </p>
-      <!-- Add more content here, such as product listings, categories, etc. -->
-      <div class="catalog">
-        <h2>Catalog</h2>
-
-        <div class="product-container">
-          <div class="product container-depth p-4 fa-bg-yellow">
-            <h3 class="heading-round bg-green border-dark-green">Product 1</h3>
-            <div class="image-container border-1 border-radius-5 border-grey">
-              <img
-                class="border-radius-4"
-                src="images/duolingo-icon-1.png"
-                alt="Product 1"
-              />
-            </div>
-
-            <p>Description of Product 1</p>
-            <span class="price-text"
-              >Price: <span class="price">$19.99</span></span
-            >
-            <button class="bg-orange p-2 w-100">Add to Cart</button>
+      <div class="container w-100 bg-purple">
+        <h1 class="text-center">Super Duolingo Icons Bundle</h1>
+        <div class="image-price-container">
+          <div class="image-container w-25">
+            <img
+              class="border-radius-4"
+              src="images/duolingo-icon-6.png"
+              alt="Duoling Icons Bundle"
+            />
           </div>
-          <div class="product container-depth p-4 fa-bg-yellow">
-            <h3 class="heading-round bg-green border-dark-green">Product 2</h3>
-            <div class="image-container border-1 border-radius-5 border-grey">
-              <img
-                class="border-radius-4"
-                src="images/duolingo-icon-2.png"
-                alt="Product 2"
-              />
-            </div>
+          <div class="price-container p-left-8 w-75">
+            <p>
+              Unlock the power of language with our exclusive
+              <span class="italics">Duolingo Icons Bundle!</span></p>
+              <p>Get a
+                collection of vibrant icons representing different languages at a
+                special price. Enhance your online presence and show off your
+                multilingual skills. Limited time offer, shop now!</p>
+            </p>
+          </div>
+        </div>
+      </div>
 
-            <p>Description of Product 2</p>
-            <span class="price-text"
-              >Price: <span class="price">$24.99</span></span
-            >
-            <button class="bg-orange p-2 w-100">Add to Cart</button>
+      <div class="container w-100 bg-purple">
+        <h1 class="text-center">Limited Edition Icons Bundle</h1>
+        <div class="image-price-container">
+          <div class="image-container w-25">
+            <img
+              class="border-radius-4"
+              src="images/duolingo-icon-5.png"
+              alt="Duoling Icons Bundle"
+            />
           </div>
-          <div class="product container-depth p-4 fa-bg-yellow">
-            <h3 class="heading-round bg-green border-dark-green">Product 3</h3>
-            <div class="image-container border-1 border-radius-5 border-grey">
-              <img
-                class="border-radius-4"
-                src="images/duolingo-icon-3.png"
-                alt="Product 3"
-              />
-            </div>
-            <p>Description of Product 3</p>
-            <span class="price-text"
-              >Price: <span class="price">$29.99</span></span
-            >
-            <button class="bg-orange p-2 w-100">Add to Cart</button>
+          <div class="price-container p-left-8 w-75">
+              <p>Discover the beauty of language with our <span class="italics">Limited Edition Icons Bundle!</span></p>
+              <p>Immerse yourself in a world of unique icons representing diverse languages.
+                Elevate your online presence with this exclusive collection. Don't miss out, grab yours today!</p>
           </div>
-          <!-- Add more product entries as needed -->
         </div>
       </div>
     </div>
-    <footer>
-      <!-- Footer content goes here -->
+    <footer class="text-right">
       <p>&copy; 2023 E-Commerce Shop. All rights reserved.</p>
     </footer>
   </body>
