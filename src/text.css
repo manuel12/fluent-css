@@ -2,12 +2,24 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .underline {
   text-decoration: 2px underline;
 }
 
 .bold {
   font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
 }
 
 .fs-1pt25 {
