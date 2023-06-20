@@ -6,7 +6,17 @@
 
   border: 4px solid darkgray;
   border-radius: 15px;
-  box-shadow: 0 10px rgb(120, 120, 120);
+  box-shadow: 0 10px #787878;
+}
+
+.container {
+  color: white;
+  margin: 20px auto;
+  padding: 10px;
+  width: 75%;
+
+  border: 4px solid darkgray;
+  border-radius: 15px;
 }
 
 .container-depth {
