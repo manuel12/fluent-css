@@ -22,18 +22,57 @@
   font-style: italic;
 }
 
-.fs-1pt25 {
+.font-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.fs-1pt5 {
+.font-2xl {
   font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.fs-1pt75 {
-  font-size: 1.75rem;
+.font-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.fs-2 {
-  font-size: 2rem;
+.font-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.font-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.font-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
