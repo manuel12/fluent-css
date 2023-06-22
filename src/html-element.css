@@ -102,6 +102,10 @@ select {
   border-radius: 10px;
 }
 
+select:focus {
+  outline: 2px solid orange;
+}
+
 textarea {
   width: 100%;
   height: 100px;
