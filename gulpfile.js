@@ -58,6 +58,9 @@ const connectServer = () =>
     livereload: true,
   });
 
+export const compressDemoImages = () =>
+  gulp.src("demo/*.png").pipe(imageMinifier()).pipe(gulp.dest("demo/"));
+
 export default gulp.parallel(
   watchHTML,
   watchCSS,
