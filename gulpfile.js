@@ -23,28 +23,13 @@ const watchHTML = () =>
 const bundleCSS = () =>
   gulp
     .src("src/*.css")
-    .pipe(concat("custom-library.min.css"))
+    .pipe(concat("fluent.min.css"))
     .pipe(cssMinifier())
     .pipe(gulp.dest("build/"))
     .pipe(connect.reload());
 
 const watchCSS = () =>
   gulp.watch("src/*.css", { ignoreInitial: false }, bundleCSS);
-
-// Module CSS: examples/e-commerce/*.css
-const bundleModuleCSS = () =>
-  gulp
-    .src("examples/e-commerce/*.css")
-    .pipe(cssMinifier())
-    .pipe(gulp.dest("build/"))
-    .pipe(connect.reload());
-
-const watchModuleCSS = () =>
-  gulp.watch(
-    "examples/e-commerce/*.css",
-    { ignoreInitial: false },
-    bundleModuleCSS
-  );
 
 const bundleImages = () =>
   gulp
@@ -61,10 +46,4 @@ const connectServer = () =>
 export const compressDemoImages = () =>
   gulp.src("demo/*.png").pipe(imageMinifier()).pipe(gulp.dest("demo/"));
 
-export default gulp.parallel(
-  watchHTML,
-  watchCSS,
-  watchModuleCSS,
-  bundleImages,
-  connectServer
-);
+export default gulp.parallel(watchHTML, watchCSS, bundleImages, connectServer);
