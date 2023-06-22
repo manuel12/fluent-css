@@ -1,4 +1,4 @@
-# Custom Styles & Colors Library
+# FluentCSS
 
 A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
 
@@ -20,21 +20,21 @@ A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
 
 ### Brief overview of what the library does:
 
-This library was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of a website when imported, but also provided the user with utility classes to alter the stylings of the different elements in use.
+FluentCSS was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of a website when imported, but also provided the user with utility classes to alter the stylings of the different elements in use.
 
 ### How the library was built:
 
-The library was built using plain CSS and Font Awesome icons.
+FluentCSS was built using plain CSS and Font Awesome icons.
 
 ## Download
 
 ### How to download the library:
 
-Simply clone the repository locally and extract the _custom-library.min.css_ file.
+Simply clone the repository locally and extract the _fluent.min.css_ file.
 
 ### How to import the library:
 
-In order to import the library simply add the two library links on the head tag of your index.html
+In order to import FluentCSS simply add the two library links on the head tag of your index.html
 
     <link rel="stylesheet" href="custom-library.min.css" />
 
@@ -46,9 +46,9 @@ And finally add the script for the Font Awesome kit.
 
 ## What's included in the library
 
-The library consists of 1 CSS file: _custom-library.min.css_
+FluentCSS consists of 1 CSS file: _fluent.min.css_
 
-The _custom-library.min.css_ file includes boilerplate stylings that will apply inmediatly as soon as library is imported; it also contains some custom element styles like 'main container' or 'basic container' that serve as building block for your application; further utility classes regarding margin, padding, width and height; and colors classes used style text, background and border colors:
+The _fluent.min.css_ file includes boilerplate stylings that will apply inmediatly as soon as library is imported; it also contains some custom element styles like 'main container' or 'basic container' that serve as building block for your application; further utility classes regarding margin, padding, width and height; and colors classes used style text, background and border colors:
 
 ### Some custom element styles:
 
@@ -80,7 +80,7 @@ The _custom-library.min.css_ file includes boilerplate stylings that will apply 
 
 ### Adding classes to elements
 
-After importing the library and reloading you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, ordered and unordered lists will also be automatically updated.
+After importing FluentCSS and reloading you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, ordered and unordered lists will also be automatically updated.
 
 In order to use the other styles available, such as having a heading with depth, or with darker borders, styling buttons as social or music buttons, and so on, you will need to add the class of the style you want to add to the element you want to change.
 
