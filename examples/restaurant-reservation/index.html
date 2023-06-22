@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../build/fluent.min.css" />
+    <title>Restaurante Reservation System</title>
+  </head>
+  <body>
+    <div class="">
+      <h1>Restaurant Reservation System</h1>
+      <label for="name" id="name-label">
+        <h4>Name for the reservation</h4>
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter name here..."
+          required
+        />
+      </label>
+      <label for="number" id="number-label">
+        <h4>How many people is the reservation for?</h4>
+        <input
+          id="number"
+          type="number"
+          min="1"
+          max="12"
+          placeholder="Enter how many people here..."
+        />
+      </label>
+      <label for="email" id="email-label">
+        <h4>Email</h4>
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Enter email here..."
+        />
+      </label>
+
+      <h4>What is the reservation type?</h4>
+      <select id="dropdown" class="input select">
+        <option>Dinner</option>
+        <option>Birthday</option>
+        <option>Nightlife</option>
+        <option>Wedding</option>
+        <option>Corporate</option>
+        <option>Other</option>
+      </select>
+
+      <h4>Dietary Requirements</h4>
+      <label>
+        <input type="checkbox" name="recommend" value="vegetarian" />Vegetarian
+      </label>
+      <label>
+        <input type="checkbox" name="recommend" value="vegan" />Vegan
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          name="recommend"
+          value="gluten-free"
+        />Gluten-free
+      </label>
+      <label>
+        <input type="checkbox" name="recommend" value="dairy-free" />Dairy-free
+      </label>
+
+      <h4>Where would you like to sit?</h4>
+      <label><input type="radio" name="where to sit" value="A" />Inside </label>
+      <label
+        ><input type="radio" name="where to sit" value="B" />Outside
+        Patio</label
+      >
+
+      <label>
+        <h4>Any special requests?</h4>
+        <textarea class="input textarea" placeholder="Enter your comment here">
+        </textarea>
+      </label>
+      <button id="submit" class="submit-button bg-green" type="submit">
+        Make Reservation
+      </button>
+    </div>
+  </body>
+</html>
