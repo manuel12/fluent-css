@@ -1,8 +1,8 @@
-.custom-container {
+.main-container {
   color: white;
   margin: 20px auto;
   padding: 10px;
-  width: 75%;
+  width: 95%;
 
   border: 4px solid darkgray;
   border-radius: 15px;
@@ -13,14 +13,17 @@
   color: white;
   margin: 20px auto;
   padding: 10px;
-  width: 75%;
+  width: 95%;
 
   border: 4px solid darkgray;
   border-radius: 15px;
 }
 
-.container-depth {
-  padding: 3px;
+.depth-container {
+  margin: 20px auto;
+  padding: 10px;
+  width: 95%;
+
   border: 3px solid darkgray;
   border-radius: 10px;
   box-shadow: 0 5px #999;
@@ -69,4 +72,12 @@
 .fa-brands,
 .fa-solid {
   color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .main-container,
+  .basic-container,
+  .depth-container {
+    width: 75%;
+  }
 }

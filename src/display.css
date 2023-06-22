@@ -21,3 +21,21 @@
 .object-cover {
   object-fit: cover;
 }
+
+@media screen and (min-width: 768px) {
+  .md-d-flex {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lg-d-flex {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .xl-d-flex {
+    display: flex;
+  }
+}
