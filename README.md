@@ -108,7 +108,7 @@ So for example, if you have a heading element that you want to update to a headi
 
 ### Custom containers
 
-One of the most important classes provided by _custom-styles.css_ is the _.custom-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class _.custom-container_ to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
+One of the most important classes provided by _custom-styles.css_ is the _.main-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class _.main-container_ to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
 
     <div>
       <h1>Restaurant Reservation System</h1>
@@ -119,9 +119,9 @@ One of the most important classes provided by _custom-styles.css_ is the _.custo
 
 ![Heading example](demo/div.png)
 
-...add the _.custom-container_ and _.bg-blue_ classes to such div in order to change it to a custom container with a blue background...
+...add the _.main-container_ and _.bg-blue_ classes to such div in order to change it to a custom container with a blue background...
 
-    <div class="custom-container bg-blue">
+    <div class="main-container bg-blue">
       <h1>Restaurant Reservation System</h1>
       ...
     </div>
@@ -133,7 +133,6 @@ One of the most important classes provided by _custom-styles.css_ is the _.custo
 **Note:** custom containers occupy 75% of their parent's width and have white font by default.
 
 In order to see how to apply any of the different styling examples simply load the index.html that comes with the library, and check the source code to see how each element was implemented.
-
 
 ## Examples
 
