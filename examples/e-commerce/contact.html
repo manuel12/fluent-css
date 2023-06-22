@@ -8,9 +8,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="custom-library.min.css" />
-    <link rel="stylesheet" href="contact-styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="custom-container bg-blue">
+  <body class="main-container bg-blue">
     <header>
       <h1 class="heading-depth bg-orange">E-Commerce Shop</h1>
     </header>
@@ -18,19 +18,19 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
-        <li><a href="cart.html">Cart</a></li>
+        <li><a href="shopping-cart.html">Shopping Cart</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <div class="content">
+    <div class="content contact-page">
       <h2 class="text-center">Contact Us</h2>
-      <p class="mx-auto margin-bottom-8">
+      <p class="mx-auto margin-bottom-8 w-100 md-w-75">
         We'd love to hear from you! Whether you have a question, need
         assistance, or want to share your feedback, our team is here to help.
         Contact us through the form below, and we'll get back to you promptly.
         Thank you for choosing our shop!
       </p>
-      <div class="contact-us mx-auto">
+      <div class="contact-form mx-auto w-100 md-w-75">
         <label for="name" id="name-label">
           Name
           <input
@@ -57,7 +57,9 @@
             placeholder="Enter your message here..."
           ></textarea>
         </label>
-        <button class="submit-button bg-green">Send message!</button>
+        <button class="submit-button w-250px md-min-w-0 bg-green">
+          Send message!
+        </button>
       </div>
     </div>
     <footer class="text-right">
