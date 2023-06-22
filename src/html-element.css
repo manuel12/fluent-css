@@ -20,7 +20,6 @@ button {
   text-align: center;
   font-weight: bold;
   margin: 10px auto;
-  max-width: 50%;
 
   border: 2px solid rgb(120, 120, 120);
   border-radius: 50px;
@@ -114,6 +113,10 @@ textarea {
 
   font-family: inherit;
   resize: none;
+}
+
+textarea:focus {
+  outline: 2px solid orange;
 }
 
 textarea::-webkit-scrollbar {
