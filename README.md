@@ -1,6 +1,8 @@
 # Custom Styles & Colors Library
 
-## Some quick examples
+A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
+
+<!-- ## Some quick examples
 
 ### Headings
 
@@ -12,13 +14,13 @@
 
 ### Sound buttons
 
-![Sound buttons](demo/sound-buttons.png)
+![Sound buttons](demo/sound-buttons.png) -->
 
 ## Introduction
 
 ### Brief overview of what the library does:
 
-This library was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of an HTML website when imported, but also provided the user with classes to alter the stylings of the different elements in use.
+This library was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of a website when imported, but also provided the user with utility classes to alter the stylings of the different elements in use.
 
 ### How the library was built:
 
@@ -28,20 +30,15 @@ The library was built using plain CSS and Font Awesome icons.
 
 ### How to download the library:
 
-Simply clone the repository locally and extract the _custom-styles.css_ and _custom-colors.css_ files and add them to the root of your project
+Simply clone the repository locally and extract the _custom-library.min.css_ file.
 
 ### How to import the library:
 
 In order to import the library simply add the two library links on the head tag of your index.html
 
-    <link rel="stylesheet" href="custom-styles.css" />
-    <link rel="stylesheet" href="custom-colors.css" />
+    <link rel="stylesheet" href="custom-library.min.css" />
 
 _This is of course assuming the styles are in the root of your project, if they are not then modify their paths accodingly._
-
-After that add the link to the google (Valera Round) font.
-
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
 
 And finally add the script for the Font Awesome kit.
 
@@ -49,24 +46,29 @@ And finally add the script for the Font Awesome kit.
 
 ## What's included in the library
 
-The library includes 2 CSS files: _custom-styles.css_ and _color-styles.css_.
+The library consists of 1 CSS file: _custom-library.min.css_
 
-The _custom-styles.css_ includes element stylings that will apply inmediatly as soon as library is imported and further classes that you can use to style elements:
+The _custom-library.min.css_ file includes boilerplate stylings that will apply inmediatly as soon as library is imported; it also contains some custom element styles like 'main container' or 'basic container' that serve as building block for your application; further utility classes regarding margin, padding, width and height; and colors classes used style text, background and border colors:
 
-### Custom Styles
+### Some custom element styles:
 
-- Elements styles
-- Custom container
+- Main container
+- Basic container
+- Depth container
 - Heading with depth
 - Heading with round corners
 - Submit button
-- Social buttons
-- Sound buttons
+- Icon buttons
+
+### Some general style utilities
+
+- Display styles
+- Margin styles
+- Padding styles
+- Width styles
+- Height styles
 - Text styles
 - Font-size styles
-- Width styles
-
-The _color-styles.css_ includes colors you can use to style elements:
 
 ### Custom Colors
 
@@ -117,7 +119,7 @@ One of the most important classes provided by _custom-styles.css_ is the _.main-
 
 ...and currently looks like this...
 
-![Heading example](demo/div.png)
+![Heading example](demo/div-without-added-classes.png)
 
 ...add the _.main-container_ and _.bg-blue_ classes to such div in order to change it to a custom container with a blue background...
 
@@ -128,7 +130,7 @@ One of the most important classes provided by _custom-styles.css_ is the _.main-
 
 ...and it will end up looking like this:
 
-![Heading example](demo/styled-div.png)
+![Heading example](demo/div-with-main-container-and-bg-color-classes.png)
 
 **Note:** custom containers occupy 75% of their parent's width and have white font by default.
 
@@ -152,9 +154,9 @@ In order to see how to apply any of the different styling examples simply load t
 
 ![Headers example](demo/forms.png)
 
-### Button width classes
+### Button using width classes
 
-![Button width classes](demo/button-width-classes.png)
+![Button using width classes](demo/button-width-classes.png)
 
 ### Social buttons
 
