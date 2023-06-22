@@ -1,0 +1,69 @@
+/* MAX WIDTH */
+
+/* PERCENTAGE */
+
+.max-w-0 {
+  max-width: 0 !important;
+}
+
+.max-w-25 {
+  max-width: 25% !important;
+}
+.max-w-50 {
+  max-width: 50% !important;
+}
+
+.max-w-75 {
+  max-width: 75% !important;
+}
+
+.max-w-100 {
+  max-width: 100% !important;
+}
+
+/* PIXEL */
+
+.max-w-25px {
+  max-width: 25px !important;
+}
+.max-w-50px {
+  max-width: 50px !important;
+}
+
+.max-w-75px {
+  max-width: 75px !important;
+}
+
+.max-w-100px {
+  max-width: 100px !important;
+}
+
+.max-w-125px {
+  max-width: 125px !important;
+}
+.max-w-150px {
+  max-width: 150px !important;
+}
+
+.max-w-175px {
+  max-width: 175px !important;
+}
+
+.max-w-200px {
+  max-width: 200px !important;
+}
+
+.max-w-225px {
+  max-width: 225px !important;
+}
+.max-w-250px {
+  max-width: 250px !important;
+}
+
+.max-w-275px {
+  max-width: 275px !important;
+}
+
+.max-w-300px {
+  max-width: 300px !important;
+}
