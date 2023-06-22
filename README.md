@@ -36,11 +36,11 @@ Simply clone the repository locally and extract the _fluent.min.css_ file.
 
 In order to import FluentCSS simply add the two library links on the head tag of your index.html
 
-    <link rel="stylesheet" href="custom-library.min.css" />
+    <link rel="stylesheet" href="fluent.min.css" />
 
 _This is of course assuming the styles are in the root of your project, if they are not then modify their paths accodingly._
 
-And finally add the script for the Font Awesome kit.
+And finally add the script for the Font Awesome kit (to be able to use FontAwesome Icons).
 
     <script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"></script>
 
@@ -48,7 +48,7 @@ And finally add the script for the Font Awesome kit.
 
 FluentCSS consists of 1 CSS file: _fluent.min.css_
 
-The _fluent.min.css_ file includes boilerplate stylings that will apply inmediatly as soon as library is imported; it also contains some custom element styles like 'main container' or 'basic container' that serve as building block for your application; further utility classes regarding margin, padding, width and height; and colors classes used style text, background and border colors:
+The _fluent.min.css_ file includes boilerplate stylings that will apply inmediatly as soon as library is imported; it also contains some custom element styles like 'main container' or 'basic container' that serve as building blocks for your application; further utility classes regarding margin, padding, width and height; and colors classes to style text, background and border colors:
 
 ### Some custom element styles:
 
@@ -110,7 +110,7 @@ So for example, if you have a heading element that you want to update to a headi
 
 ### Custom containers
 
-One of the most important classes provided by _custom-styles.css_ is the _.main-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section are contained in custom containers. In order to make a normal div into a custom container you just have to add the class _.main-container_ to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
+One of the most important classes provided by FluentCSS is the _.main-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section of this README file are contained in custom containers. In order to make a normal div into a custom container you just have to add the class _.main-container_ to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
 
     <div>
       <h1>Restaurant Reservation System</h1>
