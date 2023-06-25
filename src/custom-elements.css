@@ -29,14 +29,14 @@
   box-shadow: 0 5px #999;
 }
 
-.container-round {
+.round-container {
   margin: 10px auto;
   padding: 3px;
   border: 3px solid;
   border-radius: 50px;
 }
 
-.heading-depth {
+.depth-heading {
   color: white;
   text-align: center;
 
@@ -46,7 +46,7 @@
   box-shadow: 0 5px #999;
 }
 
-.heading-round {
+.round-heading {
   color: white;
   text-align: center;
   margin: 10px auto;
