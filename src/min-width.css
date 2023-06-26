@@ -1,4 +1,4 @@
-/* MIN WIDTH */
+/* min WIDTH */
 
 /* PERCENTAGE */
 
@@ -41,7 +41,6 @@
 .min-w-125px {
   min-width: 125px !important;
 }
-
 .min-w-150px {
   min-width: 150px !important;
 }
@@ -70,6 +69,10 @@
 }
 
 @media screen and (min-width: 600px) {
+  /* min WIDTH */
+
+  /* PERCENTAGE */
+
   .sm-min-w-0 {
     min-width: 0 !important;
   }
@@ -87,5 +90,268 @@
 
   .sm-min-w-100 {
     min-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .sm-min-w-25px {
+    min-width: 25px !important;
+  }
+  .sm-min-w-50px {
+    min-width: 50px !important;
+  }
+
+  .sm-min-w-75px {
+    min-width: 75px !important;
+  }
+
+  .sm-min-w-100px {
+    min-width: 100px !important;
+  }
+
+  .sm-min-w-125px {
+    min-width: 125px !important;
+  }
+  .sm-min-w-150px {
+    min-width: 150px !important;
+  }
+
+  .sm-min-w-175px {
+    min-width: 175px !important;
+  }
+
+  .sm-min-w-200px {
+    min-width: 200px !important;
+  }
+
+  .sm-min-w-225px {
+    min-width: 225px !important;
+  }
+  .sm-min-w-250px {
+    min-width: 250px !important;
+  }
+
+  .sm-min-w-275px {
+    min-width: 275px !important;
+  }
+
+  .sm-min-w-300px {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* min WIDTH */
+
+  /* PERCENTAGE */
+
+  .md-min-w-0 {
+    min-width: 0 !important;
+  }
+
+  .md-min-w-25 {
+    min-width: 25% !important;
+  }
+  .md-min-w-50 {
+    min-width: 50% !important;
+  }
+
+  .md-min-w-75 {
+    min-width: 75% !important;
+  }
+
+  .md-min-w-100 {
+    min-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .md-min-w-25px {
+    min-width: 25px !important;
+  }
+  .md-min-w-50px {
+    min-width: 50px !important;
+  }
+
+  .md-min-w-75px {
+    min-width: 75px !important;
+  }
+
+  .md-min-w-100px {
+    min-width: 100px !important;
+  }
+
+  .md-min-w-125px {
+    min-width: 125px !important;
+  }
+  .md-min-w-150px {
+    min-width: 150px !important;
+  }
+
+  .md-min-w-175px {
+    min-width: 175px !important;
+  }
+
+  .md-min-w-200px {
+    min-width: 200px !important;
+  }
+
+  .md-min-w-225px {
+    min-width: 225px !important;
+  }
+  .md-min-w-250px {
+    min-width: 250px !important;
+  }
+
+  .md-min-w-275px {
+    min-width: 275px !important;
+  }
+
+  .md-min-w-300px {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* min WIDTH */
+
+  /* PERCENTAGE */
+
+  .lg-min-w-0 {
+    min-width: 0 !important;
+  }
+
+  .lg-min-w-25 {
+    min-width: 25% !important;
+  }
+  .lg-min-w-50 {
+    min-width: 50% !important;
+  }
+
+  .lg-min-w-75 {
+    min-width: 75% !important;
+  }
+
+  .lg-min-w-100 {
+    min-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .lg-min-w-25px {
+    min-width: 25px !important;
+  }
+  .lg-min-w-50px {
+    min-width: 50px !important;
+  }
+
+  .lg-min-w-75px {
+    min-width: 75px !important;
+  }
+
+  .lg-min-w-100px {
+    min-width: 100px !important;
+  }
+
+  .lg-min-w-125px {
+    min-width: 125px !important;
+  }
+  .lg-min-w-150px {
+    min-width: 150px !important;
+  }
+
+  .lg-min-w-175px {
+    min-width: 175px !important;
+  }
+
+  .lg-min-w-200px {
+    min-width: 200px !important;
+  }
+
+  .lg-min-w-225px {
+    min-width: 225px !important;
+  }
+  .lg-min-w-250px {
+    min-width: 250px !important;
+  }
+
+  .lg-min-w-275px {
+    min-width: 275px !important;
+  }
+
+  .lg-min-w-300px {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* min WIDTH */
+
+  /* PERCENTAGE */
+
+  .xl-min-w-0 {
+    min-width: 0 !important;
+  }
+
+  .xl-min-w-25 {
+    min-width: 25% !important;
+  }
+  .xl-min-w-50 {
+    min-width: 50% !important;
+  }
+
+  .xl-min-w-75 {
+    min-width: 75% !important;
+  }
+
+  .xl-min-w-100 {
+    min-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .xl-min-w-25px {
+    min-width: 25px !important;
+  }
+  .xl-min-w-50px {
+    min-width: 50px !important;
+  }
+
+  .xl-min-w-75px {
+    min-width: 75px !important;
+  }
+
+  .xl-min-w-100px {
+    min-width: 100px !important;
+  }
+
+  .xl-min-w-125px {
+    min-width: 125px !important;
+  }
+  .xl-min-w-150px {
+    min-width: 150px !important;
+  }
+
+  .xl-min-w-175px {
+    min-width: 175px !important;
+  }
+
+  .xl-min-w-200px {
+    min-width: 200px !important;
+  }
+
+  .xl-min-w-225px {
+    min-width: 225px !important;
+  }
+  .xl-min-w-250px {
+    min-width: 250px !important;
+  }
+
+  .xl-min-w-275px {
+    min-width: 275px !important;
+  }
+
+  .xl-min-w-300px {
+    min-width: 300px !important;
   }
 }
