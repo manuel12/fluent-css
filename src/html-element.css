@@ -65,8 +65,9 @@ nav {
 nav > ul {
   background-color: white;
 
-  display: flex;
+  display: none;
   justify-content: space-between;
+  align-items: center;
   list-style-type: none;
 
   padding: 5px;
@@ -91,6 +92,46 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
   background-color: rgb(212, 243, 252);
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+
+  background-color: orange;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+
+  width: 45px;
+  height: 45px;
+
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px #999;
+}
+
+.hamburger:active {
+  box-shadow: 0 1px #999;
+  transform: translateY(3px);
+}
+
+.show-navbar {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  nav > ul {
+    display: flex;
+  }
+
+  .show-navbar {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
 
 select {
