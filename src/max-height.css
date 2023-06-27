@@ -67,6 +67,77 @@
 .max-h-300px {
   max-height: 300px !important;
 }
+@media screen and (min-width: 600px) {
+  /* MAX HEIGHT */
+
+  /* PERCENTAGE */
+
+  .sm-max-h-25 {
+    max-height: 25% !important;
+  }
+
+  .sm-max-h-50 {
+    max-height: 50% !important;
+  }
+
+  .sm-max-h-75 {
+    max-height: 75% !important;
+  }
+
+  .sm-max-h-100 {
+    max-height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .sm-max-h-25px {
+    max-height: 25px !important;
+  }
+
+  .sm-max-h-50px {
+    max-height: 50px !important;
+  }
+
+  .sm-max-h-75px {
+    max-height: 75px !important;
+  }
+
+  .sm-max-h-100px {
+    max-height: 100px !important;
+  }
+
+  .sm-max-h-125px {
+    max-height: 125px !important;
+  }
+
+  .sm-max-h-150px {
+    max-height: 150px !important;
+  }
+
+  .sm-max-h-175px {
+    max-height: 175px !important;
+  }
+
+  .sm-max-h-200px {
+    max-height: 200px !important;
+  }
+
+  .sm-max-h-225px {
+    max-height: 225px !important;
+  }
+
+  .sm-max-h-250px {
+    max-height: 250px !important;
+  }
+
+  .sm-max-h-275px {
+    max-height: 275px !important;
+  }
+
+  .sm-max-h-300px {
+    max-height: 300px !important;
+  }
+}
 
 @media screen and (min-width: 768px) {
   /* MAX HEIGHT */
@@ -136,6 +207,150 @@
   }
 
   .md-max-h-300px {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* MAX HEIGHT */
+
+  /* PERCENTAGE */
+
+  .lg-max-h-25 {
+    max-height: 25% !important;
+  }
+
+  .lg-max-h-50 {
+    max-height: 50% !important;
+  }
+
+  .lg-max-h-75 {
+    max-height: 75% !important;
+  }
+
+  .lg-max-h-100 {
+    max-height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .lg-max-h-25px {
+    max-height: 25px !important;
+  }
+
+  .lg-max-h-50px {
+    max-height: 50px !important;
+  }
+
+  .lg-max-h-75px {
+    max-height: 75px !important;
+  }
+
+  .lg-max-h-100px {
+    max-height: 100px !important;
+  }
+
+  .lg-max-h-125px {
+    max-height: 125px !important;
+  }
+
+  .lg-max-h-150px {
+    max-height: 150px !important;
+  }
+
+  .lg-max-h-175px {
+    max-height: 175px !important;
+  }
+
+  .lg-max-h-200px {
+    max-height: 200px !important;
+  }
+
+  .lg-max-h-225px {
+    max-height: 225px !important;
+  }
+
+  .lg-max-h-250px {
+    max-height: 250px !important;
+  }
+
+  .lg-max-h-275px {
+    max-height: 275px !important;
+  }
+
+  .lg-max-h-300px {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* MAX HEIGHT */
+
+  /* PERCENTAGE */
+
+  .xl-max-h-25 {
+    max-height: 25% !important;
+  }
+
+  .xl-max-h-50 {
+    max-height: 50% !important;
+  }
+
+  .xl-max-h-75 {
+    max-height: 75% !important;
+  }
+
+  .xl-max-h-100 {
+    max-height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .xl-max-h-25px {
+    max-height: 25px !important;
+  }
+
+  .xl-max-h-50px {
+    max-height: 50px !important;
+  }
+
+  .xl-max-h-75px {
+    max-height: 75px !important;
+  }
+
+  .xl-max-h-100px {
+    max-height: 100px !important;
+  }
+
+  .xl-max-h-125px {
+    max-height: 125px !important;
+  }
+
+  .xl-max-h-150px {
+    max-height: 150px !important;
+  }
+
+  .xl-max-h-175px {
+    max-height: 175px !important;
+  }
+
+  .xl-max-h-200px {
+    max-height: 200px !important;
+  }
+
+  .xl-max-h-225px {
+    max-height: 225px !important;
+  }
+
+  .xl-max-h-250px {
+    max-height: 250px !important;
+  }
+
+  .xl-max-h-275px {
+    max-height: 275px !important;
+  }
+
+  .xl-max-h-300px {
     max-height: 300px !important;
   }
 }
