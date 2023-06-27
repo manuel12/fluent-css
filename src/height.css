@@ -68,7 +68,78 @@
   height: 300px !important;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px){
+  /* HEIGHT */
+
+  /* PERCENTAGE */
+
+  .sm-h-25 {
+    height: 25% !important;
+  }
+
+  .sm-h-50 {
+    height: 50% !important;
+  }
+
+  .sm-h-75 {
+    height: 75% !important;
+  }
+
+  .sm-h-100 {
+    height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .sm-h-25px {
+    height: 25px !important;
+  }
+
+  .sm-h-50px {
+    height: 50px !important;
+  }
+
+  .sm-h-75px {
+    height: 75px !important;
+  }
+
+  .sm-h-100px {
+    height: 100px !important;
+  }
+
+  .sm-h-125px {
+    height: 125px !important;
+  }
+
+  .sm-h-150px {
+    height: 150px !important;
+  }
+
+  .sm-h-175px {
+    height: 175px !important;
+  }
+
+  .sm-h-200px {
+    height: 200px !important;
+  }
+
+  .sm-h-225px {  
+    height: 225px !important;
+  }
+
+  .sm-h-250px {  
+    height: 250px !important;
+  }
+
+  .sm-h-275px {  
+    height: 275px !important;
+  }
+
+  .sm-h-300px {  
+    height: 300px !important;
+  }
+}
+@media screen and (min-width: 768px){
   /* HEIGHT */
 
   /* PERCENTAGE */
@@ -123,19 +194,163 @@
     height: 200px !important;
   }
 
-  .md-h-225px {
+  .md-h-225px {  
     height: 225px !important;
   }
 
-  .md-h-250px {
+  .md-h-250px {  
     height: 250px !important;
   }
 
-  .md-h-275px {
+  .md-h-275px {  
     height: 275px !important;
   }
 
-  .md-h-300px {
+  .md-h-300px {  
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 992px){
+  /* HEIGHT */
+
+  /* PERCENTAGE */
+
+  .lg-h-25 {
+    height: 25% !important;
+  }
+
+  .lg-h-50 {
+    height: 50% !important;
+  }
+
+  .lg-h-75 {
+    height: 75% !important;
+  }
+
+  .lg-h-100 {
+    height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .lg-h-25px {
+    height: 25px !important;
+  }
+
+  .lg-h-50px {
+    height: 50px !important;
+  }
+
+  .lg-h-75px {
+    height: 75px !important;
+  }
+
+  .lg-h-100px {
+    height: 100px !important;
+  }
+
+  .lg-h-125px {
+    height: 125px !important;
+  }
+
+  .lg-h-150px {
+    height: 150px !important;
+  }
+
+  .lg-h-175px {
+    height: 175px !important;
+  }
+
+  .lg-h-200px {
+    height: 200px !important;
+  }
+
+  .lg-h-225px {  
+    height: 225px !important;
+  }
+
+  .lg-h-250px {  
+    height: 250px !important;
+  }
+
+  .lg-h-275px {  
+    height: 275px !important;
+  }
+
+  .lg-h-300px {  
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  /* HEIGHT */
+
+  /* PERCENTAGE */
+
+  .xl-h-25 {
+    height: 25% !important;
+  }
+
+  .xl-h-50 {
+    height: 50% !important;
+  }
+
+  .xl-h-75 {
+    height: 75% !important;
+  }
+
+  .xl-h-100 {
+    height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .xl-h-25px {
+    height: 25px !important;
+  }
+
+  .xl-h-50px {
+    height: 50px !important;
+  }
+
+  .xl-h-75px {
+    height: 75px !important;
+  }
+
+  .xl-h-100px {
+    height: 100px !important;
+  }
+
+  .xl-h-125px {
+    height: 125px !important;
+  }
+
+  .xl-h-150px {
+    height: 150px !important;
+  }
+
+  .xl-h-175px {
+    height: 175px !important;
+  }
+
+  .xl-h-200px {
+    height: 200px !important;
+  }
+
+  .xl-h-225px {  
+    height: 225px !important;
+  }
+
+  .xl-h-250px {  
+    height: 250px !important;
+  }
+
+  .xl-h-275px {  
+    height: 275px !important;
+  }
+
+  .xl-h-300px {  
     height: 300px !important;
   }
 }
