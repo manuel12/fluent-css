@@ -67,3 +67,291 @@
 .max-w-300px {
   max-width: 300px !important;
 }
+
+@media screen and (min-width: 600px) {
+  /* MAX WIDTH */
+
+  /* PERCENTAGE */
+
+  .sm-max-w-0 {
+    max-width: 0 !important;
+  }
+
+  .sm-max-w-25 {
+    max-width: 25% !important;
+  }
+  .sm-max-w-50 {
+    max-width: 50% !important;
+  }
+
+  .sm-max-w-75 {
+    max-width: 75% !important;
+  }
+
+  .sm-max-w-100 {
+    max-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .sm-max-w-25px {
+    max-width: 25px !important;
+  }
+  .sm-max-w-50px {
+    max-width: 50px !important;
+  }
+
+  .sm-max-w-75px {
+    max-width: 75px !important;
+  }
+
+  .sm-max-w-100px {
+    max-width: 100px !important;
+  }
+
+  .sm-max-w-125px {
+    max-width: 125px !important;
+  }
+  .sm-max-w-150px {
+    max-width: 150px !important;
+  }
+
+  .sm-max-w-175px {
+    max-width: 175px !important;
+  }
+
+  .sm-max-w-200px {
+    max-width: 200px !important;
+  }
+
+  .sm-max-w-225px {
+    max-width: 225px !important;
+  }
+  .sm-max-w-250px {
+    max-width: 250px !important;
+  }
+
+  .sm-max-w-275px {
+    max-width: 275px !important;
+  }
+
+  .sm-max-w-300px {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* MAX WIDTH */
+
+  /* PERCENTAGE */
+
+  .md-max-w-0 {
+    max-width: 0 !important;
+  }
+
+  .md-max-w-25 {
+    max-width: 25% !important;
+  }
+  .md-max-w-50 {
+    max-width: 50% !important;
+  }
+
+  .md-max-w-75 {
+    max-width: 75% !important;
+  }
+
+  .md-max-w-100 {
+    max-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .md-max-w-25px {
+    max-width: 25px !important;
+  }
+  .md-max-w-50px {
+    max-width: 50px !important;
+  }
+
+  .md-max-w-75px {
+    max-width: 75px !important;
+  }
+
+  .md-max-w-100px {
+    max-width: 100px !important;
+  }
+
+  .md-max-w-125px {
+    max-width: 125px !important;
+  }
+  .md-max-w-150px {
+    max-width: 150px !important;
+  }
+
+  .md-max-w-175px {
+    max-width: 175px !important;
+  }
+
+  .md-max-w-200px {
+    max-width: 200px !important;
+  }
+
+  .md-max-w-225px {
+    max-width: 225px !important;
+  }
+  .md-max-w-250px {
+    max-width: 250px !important;
+  }
+
+  .md-max-w-275px {
+    max-width: 275px !important;
+  }
+
+  .md-max-w-300px {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* MAX WIDTH */
+
+  /* PERCENTAGE */
+
+  .lg-max-w-0 {
+    max-width: 0 !important;
+  }
+
+  .lg-max-w-25 {
+    max-width: 25% !important;
+  }
+  .lg-max-w-50 {
+    max-width: 50% !important;
+  }
+
+  .lg-max-w-75 {
+    max-width: 75% !important;
+  }
+
+  .lg-max-w-100 {
+    max-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .lg-max-w-25px {
+    max-width: 25px !important;
+  }
+  .lg-max-w-50px {
+    max-width: 50px !important;
+  }
+
+  .lg-max-w-75px {
+    max-width: 75px !important;
+  }
+
+  .lg-max-w-100px {
+    max-width: 100px !important;
+  }
+
+  .lg-max-w-125px {
+    max-width: 125px !important;
+  }
+  .lg-max-w-150px {
+    max-width: 150px !important;
+  }
+
+  .lg-max-w-175px {
+    max-width: 175px !important;
+  }
+
+  .lg-max-w-200px {
+    max-width: 200px !important;
+  }
+
+  .lg-max-w-225px {
+    max-width: 225px !important;
+  }
+  .lg-max-w-250px {
+    max-width: 250px !important;
+  }
+
+  .lg-max-w-275px {
+    max-width: 275px !important;
+  }
+
+  .lg-max-w-300px {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* MAX WIDTH */
+
+  /* PERCENTAGE */
+
+  .xl-max-w-0 {
+    max-width: 0 !important;
+  }
+
+  .xl-max-w-25 {
+    max-width: 25% !important;
+  }
+  .xl-max-w-50 {
+    max-width: 50% !important;
+  }
+
+  .xl-max-w-75 {
+    max-width: 75% !important;
+  }
+
+  .xl-max-w-100 {
+    max-width: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .xl-max-w-25px {
+    max-width: 25px !important;
+  }
+  .xl-max-w-50px {
+    max-width: 50px !important;
+  }
+
+  .xl-max-w-75px {
+    max-width: 75px !important;
+  }
+
+  .xl-max-w-100px {
+    max-width: 100px !important;
+  }
+
+  .xl-max-w-125px {
+    max-width: 125px !important;
+  }
+  .xl-max-w-150px {
+    max-width: 150px !important;
+  }
+
+  .xl-max-w-175px {
+    max-width: 175px !important;
+  }
+
+  .xl-max-w-200px {
+    max-width: 200px !important;
+  }
+
+  .xl-max-w-225px {
+    max-width: 225px !important;
+  }
+  .xl-max-w-250px {
+    max-width: 250px !important;
+  }
+
+  .xl-max-w-275px {
+    max-width: 275px !important;
+  }
+
+  .xl-max-w-300px {
+    max-width: 300px !important;
+  }
+}

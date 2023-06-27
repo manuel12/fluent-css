@@ -2,6 +2,8 @@
 
 A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
 
+Check out the live [demo](https://manuel12.github.io/fluent-css/).
+
 <!-- ## Some quick examples
 
 ### Headings
@@ -20,7 +22,7 @@ A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
 
 ### Brief overview of what the library does:
 
-FluentCSS was inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites. I wanted to create a library that would inmeditaly improve the look of a website when imported, but also provided the user with utility classes to alter the stylings of the different elements in use.
+Inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites, I wanted to create a library that would inmeditaly improve the look of a website when imported, but also provided the user with utility classes to alter the stylings of the different elements in use.
 
 ### How the library was built:
 

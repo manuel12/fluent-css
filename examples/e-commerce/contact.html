@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>E-Commerce Shop</title>
+    <title>Duolingo Icons Shop</title>
     <link rel="stylesheet" href="fluent.min.css" />
   </head>
   <body class="main-container bg-blue">
     <header>
-      <h1 class="heading-depth bg-orange">E-Commerce Shop</h1>
+      <h1 class="depth-heading bg-orange">Duolingo Icons Shop</h1>
     </header>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="shopping-cart.html">Shopping Cart</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a class="min-w-0" href="index.html">Home</a></li>
+        <li><a class="min-w-0" href="products.html">Products</a></li>
+        <li><a class="min-w-0" href="shopping-cart.html">Shopping Cart</a></li>
+        <li><a class="min-w-0" href="contact.html">Contact</a></li>
       </ul>
+      <div class="hamburger">&#9776;</div>
     </nav>
     <div class="content contact-page">
       <h2 class="text-center">Contact Us</h2>
-      <p class="mx-auto m-bottom-8 w-100 md-w-75">
+      <p class="mx-auto m-bottom-8 w-75">
         We'd love to hear from you! Whether you have a question, need
         assistance, or want to share your feedback, our team is here to help.
         Contact us through the form below, and we'll get back to you promptly.
         Thank you for choosing our shop!
       </p>
-      <div class="contact-form mx-auto w-100 md-w-75">
+      <div class="contact-form mx-auto w-75">
         <label for="name" id="name-label">
           Name
           <input
@@ -59,5 +60,15 @@
     <footer class="text-right">
       <p>&copy; 2023 E-Commerce Shop. All rights reserved.</p>
     </footer>
+
+    <script type="application/javascript">
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector("nav ul");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("show-navbar");
+        console.log(menu);
+      });
+    </script>
   </body>
 </html>
