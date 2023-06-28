@@ -26,11 +26,51 @@
   .sm-d-flex {
     display: flex;
   }
+
+  .sm-d-block {
+    display: block;
+  }
+
+  .sm-justify-space-around {
+    justify-content: space-around;
+  }
+
+  .sm-justify-space-between {
+    justify-content: space-between;
+  }
+
+  .sm-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .sm-object-cover {
+    object-fit: cover;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .md-d-flex {
     display: flex;
+  }
+
+  .md-d-block {
+    display: block;
+  }
+
+  .md-justify-space-around {
+    justify-content: space-around;
+  }
+
+  .md-justify-space-between {
+    justify-content: space-between;
+  }
+
+  .md-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .md-object-cover {
+    object-fit: cover;
   }
 }
 
@@ -38,10 +78,50 @@
   .lg-d-flex {
     display: flex;
   }
+
+  .lg-d-block {
+    display: block;
+  }
+
+  .lg-justify-space-around {
+    justify-content: space-around;
+  }
+
+  .lg-justify-space-between {
+    justify-content: space-between;
+  }
+
+  .lg-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .lg-object-cover {
+    object-fit: cover;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .xl-d-flex {
     display: flex;
+  }
+
+  .xl-d-block {
+    display: block;
+  }
+
+  .xl-justify-space-around {
+    justify-content: space-around;
+  }
+
+  .xl-justify-space-between {
+    justify-content: space-between;
+  }
+
+  .xl-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .xl-object-cover {
+    object-fit: cover;
   }
 }
