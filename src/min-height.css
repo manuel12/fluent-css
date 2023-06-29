@@ -68,6 +68,78 @@
   min-height: 300px !important;
 }
 
+@media screen and (min-width: 600px) {
+  /* MIN HEIGHT */
+
+  /* PERCENTAGE */
+
+  .sm-min-h-25 {
+    min-height: 25% !important;
+  }
+
+  .sm-min-h-50 {
+    min-height: 50% !important;
+  }
+
+  .sm-min-h-75 {
+    min-height: 75% !important;
+  }
+
+  .sm-min-h-100 {
+    min-height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .sm-min-h-25px {
+    min-height: 25px !important;
+  }
+
+  .sm-min-h-50px {
+    min-height: 50px !important;
+  }
+
+  .sm-min-h-75px {
+    min-height: 75px !important;
+  }
+
+  .sm-min-h-100px {
+    min-height: 100px !important;
+  }
+
+  .sm-min-h-125px {
+    min-height: 125px !important;
+  }
+
+  .sm-min-h-150px {
+    min-height: 150px !important;
+  }
+
+  .sm-min-h-175px {
+    min-height: 175px !important;
+  }
+
+  .sm-min-h-200px {
+    min-height: 200px !important;
+  }
+
+  .sm-min-h-225px {
+    min-height: 225px !important;
+  }
+
+  .sm-min-h-250px {
+    min-height: 250px !important;
+  }
+
+  .sm-min-h-275px {
+    min-height: 275px !important;
+  }
+
+  .sm-min-h-300px {
+    min-height: 300px !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* MIN HEIGHT */
 
@@ -136,6 +208,150 @@
   }
 
   .md-min-h-300px {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* MIN HEIGHT */
+
+  /* PERCENTAGE */
+
+  .lg-min-h-25 {
+    min-height: 25% !important;
+  }
+
+  .lg-min-h-50 {
+    min-height: 50% !important;
+  }
+
+  .lg-min-h-75 {
+    min-height: 75% !important;
+  }
+
+  .lg-min-h-100 {
+    min-height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .lg-min-h-25px {
+    min-height: 25px !important;
+  }
+
+  .lg-min-h-50px {
+    min-height: 50px !important;
+  }
+
+  .lg-min-h-75px {
+    min-height: 75px !important;
+  }
+
+  .lg-min-h-100px {
+    min-height: 100px !important;
+  }
+
+  .lg-min-h-125px {
+    min-height: 125px !important;
+  }
+
+  .lg-min-h-150px {
+    min-height: 150px !important;
+  }
+
+  .lg-min-h-175px {
+    min-height: 175px !important;
+  }
+
+  .lg-min-h-200px {
+    min-height: 200px !important;
+  }
+
+  .lg-min-h-225px {
+    min-height: 225px !important;
+  }
+
+  .lg-min-h-250px {
+    min-height: 250px !important;
+  }
+
+  .lg-min-h-275px {
+    min-height: 275px !important;
+  }
+
+  .lg-min-h-300px {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* MIN HEIGHT */
+
+  /* PERCENTAGE */
+
+  .xl-min-h-25 {
+    min-height: 25% !important;
+  }
+
+  .xl-min-h-50 {
+    min-height: 50% !important;
+  }
+
+  .xl-min-h-75 {
+    min-height: 75% !important;
+  }
+
+  .xl-min-h-100 {
+    min-height: 100% !important;
+  }
+
+  /* PIXEL */
+
+  .xl-min-h-25px {
+    min-height: 25px !important;
+  }
+
+  .xl-min-h-50px {
+    min-height: 50px !important;
+  }
+
+  .xl-min-h-75px {
+    min-height: 75px !important;
+  }
+
+  .xl-min-h-100px {
+    min-height: 100px !important;
+  }
+
+  .xl-min-h-125px {
+    min-height: 125px !important;
+  }
+
+  .xl-min-h-150px {
+    min-height: 150px !important;
+  }
+
+  .xl-min-h-175px {
+    min-height: 175px !important;
+  }
+
+  .xl-min-h-200px {
+    min-height: 200px !important;
+  }
+
+  .xl-min-h-225px {
+    min-height: 225px !important;
+  }
+
+  .xl-min-h-250px {
+    min-height: 250px !important;
+  }
+
+  .xl-min-h-275px {
+    min-height: 275px !important;
+  }
+
+  .xl-min-h-300px {
     min-height: 300px !important;
   }
 }
