@@ -49,3 +49,165 @@
 .b-radius-5 {
   border-radius: 20px;
 }
+
+@media (min-width: 600px) {
+  .b-1 {
+    padding: 0.5rem;
+  }
+
+  .b-2 {
+    padding: 1rem;
+  }
+
+  .b-3 {
+    padding: 1.5rem;
+  }
+
+  .b-4 {
+    padding: 2rem;
+  }
+
+  .b-5 {
+    padding: 2.5rem;
+  }
+
+  .b-6 {
+    padding: 3rem;
+  }
+
+  .b-7 {
+    padding: 3.5rem;
+  }
+
+  .b-8 {
+    padding: 4rem;
+  }
+
+  .b-radius-1 {
+    border-radius: 2px;
+  }
+
+  .b-radius-2 {
+    border-radius: 6px;
+  }
+
+  .b-radius-3 {
+    border-radius: 11px;
+  }
+
+  .b-radius-4 {
+    border-radius: 16px;
+  }
+
+  .b-radius-5 {
+    border-radius: 21px;
+  }
+}
+
+@media (min-width: 992px) {
+  .b-1 {
+    padding: 1rem;
+  }
+
+  .b-2 {
+    padding: 1.5rem;
+  }
+
+  .b-3 {
+    padding: 2rem;
+  }
+
+  .b-4 {
+    padding: 2.5rem;
+  }
+
+  .b-5 {
+    padding: 3rem;
+  }
+
+  .b-6 {
+    padding: 3.5rem;
+  }
+
+  .b-7 {
+    padding: 4rem;
+  }
+
+  .b-8 {
+    padding: 4.5rem;
+  }
+
+  .b-radius-1 {
+    border-radius: 3px;
+  }
+
+  .b-radius-2 {
+    border-radius: 7px;
+  }
+
+  .b-radius-3 {
+    border-radius: 12px;
+  }
+
+  .b-radius-4 {
+    border-radius: 17px;
+  }
+
+  .b-radius-5 {
+    border-radius: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b-1 {
+    padding: 1.5rem;
+  }
+
+  .b-2 {
+    padding: 2rem;
+  }
+
+  .b-3 {
+    padding: 2.5rem;
+  }
+
+  .b-4 {
+    padding: 3rem;
+  }
+
+  .b-5 {
+    padding: 3.5rem;
+  }
+
+  .b-6 {
+    padding: 4rem;
+  }
+
+  .b-7 {
+    padding: 4.5rem;
+  }
+
+  .b-8 {
+    padding: 5rem;
+  }
+
+  .b-radius-1 {
+    border-radius: 4px;
+  }
+
+  .b-radius-2 {
+    border-radius: 8px;
+  }
+
+  .b-radius-3 {
+    border-radius: 13px;
+  }
+
+  .b-radius-4 {
+    border-radius: 18px;
+  }
+
+  .b-radius-5 {
+    border-radius: 23px;
+  }
+}
