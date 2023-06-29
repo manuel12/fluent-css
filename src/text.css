@@ -76,3 +76,327 @@
   font-size: 6rem;
   line-height: 1;
 }
+
+@media screen and (min-width: 600px) {
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .sm-text-left {
+    text-align: left;
+  }
+
+  .sm-text-right {
+    text-align: right;
+  }
+
+  .sm-underline {
+    text-decoration: underline;
+  }
+
+  .sm-bold {
+    font-weight: bold;
+  }
+
+  .sm-italics {
+    font-style: italic;
+  }
+
+  .sm-font-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .sm-font-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm-font-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm-font-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm-font-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm-font-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm-font-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm-font-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm-font-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm-font-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm-font-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md-text-center {
+    text-align: center;
+  }
+
+  .md-text-left {
+    text-align: left;
+  }
+
+  .md-text-right {
+    text-align: right;
+  }
+
+  .md-underline {
+    text-decoration: underline;
+  }
+
+  .md-bold {
+    font-weight: bold;
+  }
+
+  .md-italics {
+    font-style: italic;
+  }
+
+  .md-font-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .md-font-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md-font-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md-font-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md-font-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md-font-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md-font-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md-font-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md-font-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md-font-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md-font-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lg-text-center {
+    text-align: center;
+  }
+
+  .lg-text-left {
+    text-align: left;
+  }
+
+  .lg-text-right {
+    text-align: right;
+  }
+
+  .lg-underline {
+    text-decoration: underline;
+  }
+
+  .lg-bold {
+    font-weight: bold;
+  }
+
+  .lg-italics {
+    font-style: italic;
+  }
+
+  .lg-font-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .lg-font-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg-font-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg-font-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg-font-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg-font-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg-font-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg-font-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg-font-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg-font-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg-font-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .xl-text-center {
+    text-align: center;
+  }
+
+  .xl-text-left {
+    text-align: left;
+  }
+
+  .xl-text-right {
+    text-align: right;
+  }
+
+  .xl-underline {
+    text-decoration: underline;
+  }
+
+  .xl-bold {
+    font-weight: bold;
+  }
+
+  .xl-italics {
+    font-style: italic;
+  }
+
+  .xl-font-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .xl-font-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xl-font-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .xl-font-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl-font-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl-font-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl-font-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl-font-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl-font-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl-font-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .xl-font-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
