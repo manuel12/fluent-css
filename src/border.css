@@ -50,164 +50,218 @@
   border-radius: 20px;
 }
 
-@media (min-width: 600px) {
-  .b-1 {
-    padding: 0.5rem;
+@media screen and (min-width: 600px) {
+  .sm-b-1 {
+    border: 0.25rem solid;
   }
 
-  .b-2 {
-    padding: 1rem;
+  .sm-b-2 {
+    border: 0.5rem solid;
   }
 
-  .b-3 {
-    padding: 1.5rem;
+  .sm-b-3 {
+    border: 0.75rem solid;
   }
 
-  .b-4 {
-    padding: 2rem;
+  .sm-b-4 {
+    border: 1rem solid;
   }
 
-  .b-5 {
-    padding: 2.5rem;
+  .sm-b-5 {
+    border: 1.25rem solid;
   }
 
-  .b-6 {
-    padding: 3rem;
+  .sm-b-6 {
+    border: 1.5rem solid;
   }
 
-  .b-7 {
-    padding: 3.5rem;
+  .sm-b-7 {
+    border: 1.75rem solid;
   }
 
-  .b-8 {
-    padding: 4rem;
+  .sm-b-8 {
+    border: 2rem solid;
   }
 
-  .b-radius-1 {
-    border-radius: 2px;
+  .sm-b-radius-1 {
+    border-radius: 1px;
   }
 
-  .b-radius-2 {
-    border-radius: 6px;
+  .sm-b-radius-2 {
+    border-radius: 5px;
   }
 
-  .b-radius-3 {
-    border-radius: 11px;
+  .sm-b-radius-3 {
+    border-radius: 10px;
   }
 
-  .b-radius-4 {
-    border-radius: 16px;
+  .sm-b-radius-4 {
+    border-radius: 15px;
   }
 
-  .b-radius-5 {
-    border-radius: 21px;
-  }
-}
-
-@media (min-width: 992px) {
-  .b-1 {
-    padding: 1rem;
-  }
-
-  .b-2 {
-    padding: 1.5rem;
-  }
-
-  .b-3 {
-    padding: 2rem;
-  }
-
-  .b-4 {
-    padding: 2.5rem;
-  }
-
-  .b-5 {
-    padding: 3rem;
-  }
-
-  .b-6 {
-    padding: 3.5rem;
-  }
-
-  .b-7 {
-    padding: 4rem;
-  }
-
-  .b-8 {
-    padding: 4.5rem;
-  }
-
-  .b-radius-1 {
-    border-radius: 3px;
-  }
-
-  .b-radius-2 {
-    border-radius: 7px;
-  }
-
-  .b-radius-3 {
-    border-radius: 12px;
-  }
-
-  .b-radius-4 {
-    border-radius: 17px;
-  }
-
-  .b-radius-5 {
-    border-radius: 22px;
+  .sm-b-radius-5 {
+    border-radius: 20px;
   }
 }
 
-@media (min-width: 1200px) {
-  .b-1 {
-    padding: 1.5rem;
+@media screen and (min-width: 768px) {
+  .md-b-1 {
+    border: 0.25rem solid;
   }
 
-  .b-2 {
-    padding: 2rem;
+  .md-b-2 {
+    border: 0.5rem solid;
   }
 
-  .b-3 {
-    padding: 2.5rem;
+  .md-b-3 {
+    border: 0.75rem solid;
   }
 
-  .b-4 {
-    padding: 3rem;
+  .md-b-4 {
+    border: 1rem solid;
   }
 
-  .b-5 {
-    padding: 3.5rem;
+  .md-b-5 {
+    border: 1.25rem solid;
   }
 
-  .b-6 {
-    padding: 4rem;
+  .md-b-6 {
+    border: 1.5rem solid;
   }
 
-  .b-7 {
-    padding: 4.5rem;
+  .md-b-7 {
+    border: 1.75rem solid;
   }
 
-  .b-8 {
-    padding: 5rem;
+  .md-b-8 {
+    border: 2rem solid;
   }
 
-  .b-radius-1 {
-    border-radius: 4px;
+  .md-b-radius-1 {
+    border-radius: 1px;
   }
 
-  .b-radius-2 {
-    border-radius: 8px;
+  .md-b-radius-2 {
+    border-radius: 5px;
   }
 
-  .b-radius-3 {
-    border-radius: 13px;
+  .md-b-radius-3 {
+    border-radius: 10px;
   }
 
-  .b-radius-4 {
-    border-radius: 18px;
+  .md-b-radius-4 {
+    border-radius: 15px;
   }
 
-  .b-radius-5 {
-    border-radius: 23px;
+  .md-b-radius-5 {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lg-b-1 {
+    border: 0.25rem solid;
+  }
+
+  .lg-b-2 {
+    border: 0.5rem solid;
+  }
+
+  .lg-b-3 {
+    border: 0.75rem solid;
+  }
+
+  .lg-b-4 {
+    border: 1rem solid;
+  }
+
+  .lg-b-5 {
+    border: 1.25rem solid;
+  }
+
+  .lg-b-6 {
+    border: 1.5rem solid;
+  }
+
+  .lg-b-7 {
+    border: 1.75rem solid;
+  }
+
+  .lg-b-8 {
+    border: 2rem solid;
+  }
+
+  .lg-b-radius-1 {
+    border-radius: 1px;
+  }
+
+  .lg-b-radius-2 {
+    border-radius: 5px;
+  }
+
+  .lg-b-radius-3 {
+    border-radius: 10px;
+  }
+
+  .lg-b-radius-4 {
+    border-radius: 15px;
+  }
+
+  .lg-b-radius-5 {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .xl-b-1 {
+    border: 0.25rem solid;
+  }
+
+  .xl-b-2 {
+    border: 0.5rem solid;
+  }
+
+  .xl-b-3 {
+    border: 0.75rem solid;
+  }
+
+  .xl-b-4 {
+    border: 1rem solid;
+  }
+
+  .xl-b-5 {
+    border: 1.25rem solid;
+  }
+
+  .xl-b-6 {
+    border: 1.5rem solid;
+  }
+
+  .xl-b-7 {
+    border: 1.75rem solid;
+  }
+
+  .xl-b-8 {
+    border: 2rem solid;
+  }
+
+  .xl-b-radius-1 {
+    border-radius: 1px;
+  }
+
+  .xl-b-radius-2 {
+    border-radius: 5px;
+  }
+
+  .xl-b-radius-3 {
+    border-radius: 10px;
+  }
+
+  .xl-b-radius-4 {
+    border-radius: 15px;
+  }
+
+  .xl-b-radius-5 {
+    border-radius: 20px;
   }
 }
