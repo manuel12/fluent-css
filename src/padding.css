@@ -823,3 +823,13 @@
     padding-right: 2rem !important;
   }
 }
+
+.px {
+  padding-left: auto;
+  padding-right: auto;
+} 
+
+.py {
+  padding-top: auto;
+  padding-bottom: auto;
+}
