@@ -22,7 +22,7 @@ Check out the live [demo](https://manuel12.github.io/fluent-css/).
 
 ### Brief overview of what the library does:
 
-Inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites, I wanted to create a library that would inmeditaly improve the look of a website when imported, but also provided the user with utility classes to alter the stylings of the different elements in use.
+Inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites, I wanted to create a library that would immediately improve the look of a website when imported, but also provided the user with utility classes to alter the styles of the different elements in use.
 
 ### How the library was built:
 
@@ -36,19 +36,19 @@ Simply clone the repository locally and extract the _fluent.min.css_ file.
 
 ### How to import the library:
 
-In order to import FluentCSS simply add the two library links on the head tag of your index.html
+In order to import FluentCSS, simply add the two library links to the head tag of your index.html
 
     <link rel="stylesheet" href="fluent.min.css" />
 
-_This is of course assuming the styles are in the root of your project, if they are not then modify their paths accodingly._
+_This is, of course, assuming the styles are in the root of your project; if they are not, then modify their paths accordingly._
 
-And finally add the script for the Font Awesome kit (to be able to use FontAwesome Icons).
+And finally, add the script for the Font Awesome kit (to be able to use Font Awesome icons).
 
     <script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"></script>
 
 ## What's included in the library
 
-FluentCSS consists of 1 CSS file: _fluent.min.css_
+FluentCSS consists of one CSS file: _fluent.min.css_
 
 The _fluent.min.css_ file includes boilerplate stylings that will apply inmediatly as soon as library is imported; it also contains some custom element styles like 'main container' or 'basic container' that serve as building blocks for your application; further utility classes regarding margin, padding, width and height; and colors classes to style text, background and border colors:
 
@@ -82,7 +82,7 @@ The _fluent.min.css_ file includes boilerplate stylings that will apply inmediat
 
 ### Adding classes to elements
 
-After importing FluentCSS and reloading you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, ordered and unordered lists will also be automatically updated.
+After importing FluentCSS and reloading, you should see changes applied to the document. The standard background will be added; the font family and color will be updated; input elements, buttons, tables, and ordered and unordered lists will also be automatically updated.
 
 In order to use the other styles available, such as having a heading with depth, or with darker borders, styling buttons as social or music buttons, and so on, you will need to add the class of the style you want to add to the element you want to change.
 
@@ -94,7 +94,7 @@ So for example, if you have a heading element that you want to update to a headi
       </body>
     </html>
 
-...that originally looks like this...
+...that originally looked like this...
 
 ![Heading example](demo/heading.png)
 
@@ -112,7 +112,7 @@ So for example, if you have a heading element that you want to update to a headi
 
 ### Custom containers
 
-One of the most important classes provided by FluentCSS is the _.main-container_ class. With this class you can create containers that are padded, bordered and margined. All the examples in the "Examples" section of this README file are contained in custom containers. In order to make a normal div into a custom container you just have to add the class _.main-container_ to such an element. As an example we have a restaurant reservation system that is wrapped in a div...
+One of the most important classes provided by FluentCSS is the _.main-container_ class. With this class, you can create containers that are padded, bordered and margined. All the examples in the "Examples" section of this README file are contained in custom containers. In order to make a normal div into a custom container, you just have to add the class _.main-container_ to such an element. As an example, we have a restaurant reservation system that is wrapped in a div...
 
     <div>
       <h1>Restaurant Reservation System</h1>
