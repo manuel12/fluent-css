@@ -1,3 +1,5 @@
+![Alt text](image.png)
+
 # FluentCSS
 
 A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
