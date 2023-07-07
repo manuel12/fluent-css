@@ -24,6 +24,8 @@ A Brief overview of what the library does:
 
 Inspired by the styles of the [Duolingo](https://www.duolingo.com/learn) and [Font Awesome](https://fontawesome.com/) websites, I wanted to create a library that would immediately improve the look of a website when imported but also provide the user with utility classes to alter the styles of the different elements in use.
 
+_Disclainer: I don't any rigths to Duolingo or Font Awesome. Duolingo images or icons used are not monetized in any way._
+
 ### How the library was built:
 
 FluentCSS was built using plain CSS and Font Awesome icons.
@@ -38,13 +40,13 @@ Simply clone the repository locally and extract the _fluent.min.css_ file.
 
 In order to import FluentCSS, simply add the two library links to the head tag of your index.html
 
-    <link rel="stylesheet" href="fluent.min.css" />
+<link rel="stylesheet" href="fluent.min.css" />
 
 _This is, of course, assuming the styles are in the root of your project; if they are not, then modify their paths accordingly._
 
 And finally, add the script for the Font Awesome kit (to be able to use Font Awesome icons).
 
-    <script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/d0731b8ace.js" crossorigin="anonymous"></script>
 
 ## What's included in the library
 
@@ -88,7 +90,7 @@ In order to use the other styles available, such as having a heading with depth,
 
 So for example, if you have a heading element that you want to update to a heading with depth and also give it a different background color...
 
-    <html>
+<html>
       <body>
         <h1>My heading</h1>
       </body>
@@ -100,7 +102,7 @@ So for example, if you have a heading element that you want to update to a headi
 
 ...you need to add the required classes, in this case _.heading-depth_ and _.bg-green_, to the h1 element...
 
-    <html>
+<html>
       <body>
         <h1 class="heading-depth bg-green">My heading</h1>
       </body>
@@ -114,7 +116,7 @@ So for example, if you have a heading element that you want to update to a headi
 
 One of the most important classes provided by FluentCSS is the _.main-container_ class. With this class, you can create containers that are padded, bordered, and margined. All the examples in the "Examples" section of this README file are contained in custom containers. In order to make a normal div into a custom container, you just have to add the class _.main-container_ to such an element. As an example, we have a restaurant reservation system that is wrapped in a div...
 
-    <div>
+<div>
       <h1>Restaurant Reservation System</h1>
       ...
     </div>
@@ -125,7 +127,7 @@ One of the most important classes provided by FluentCSS is the _.main-container_
 
 ...add the _.main-container_ and _.bg-blue_ classes to such a div in order to change it to a custom container with a blue background...
 
-    <div class="main-container bg-blue">
+<div class="main-container bg-blue">
       <h1>Restaurant Reservation System</h1>
       ...
     </div>
