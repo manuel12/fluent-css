@@ -1,6 +1,4 @@
-![Alt text](image.png)
-
-# FluentCSS
+![FluentCSS](hero.png)
 
 A CSS library inspired by the styles of the Duolingo and Font Awesome websites.
 
